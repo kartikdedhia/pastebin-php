@@ -1,4 +1,4 @@
-FROM nginx:mainline-alpine
+FROM nginx:1.29.7-alpine3.23
 
 # nginx.conf.template
 ENV CLIENT_BODY_TIMEOUT 2s
