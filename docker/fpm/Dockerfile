@@ -1,4 +1,4 @@
-FROM php:8-fpm-alpine AS base
+FROM php:8.5.6RC3-fpm-alpine AS base
 
 # install non php packages
 RUN set -eux ; \
